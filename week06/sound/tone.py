@@ -10,8 +10,8 @@ from wav_support import check_settings, fade_edges, save_wav
 
 SAMPLE_RATE = 22050
 SECONDS = 2
-AMPLITUDE = 0.08
-FREQUENCY = 220
+AMPLITUDE = 0.04
+FREQUENCY = 440
 
 
 def make_samples(seconds=SECONDS, sample_rate=SAMPLE_RATE,
